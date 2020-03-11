@@ -1,0 +1,247 @@
+body{
+    font-family: sans-serif;
+    color: #47c8b6;
+    margin: auto;
+}
+.marged{
+    margin: 0 15% !important;
+}
+a{
+    color: #47c8b6;
+    text-decoration: none;
+}
+.docplanner-header{
+    display: flex;
+    /* border: 1px solid red; */
+    padding: 20px 0px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+}
+.fix-bar{
+    /* overflow: hidden; */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    right: 0px;
+    z-index: 1;
+}
+.logo-docplanner{
+    height: 33px;
+    width: 268px;
+}
+.introduction{
+    margin: 100px 15% 0 !important;
+}
+.header-menu-element{
+    padding: 0px 7px;
+    font-size: 15px;
+}
+.header-menu{
+    list-style-type: none;
+    display: flex;
+}
+ul{
+    list-style-type: none;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown-content{
+    position: absolute;
+    display: none;
+    background-color: white;
+    box-shadow: 1px 1px grey;
+    top:0;
+}
+.dropdown:hover .dropdown-content{
+    display: flex;
+    flex-direction: column;
+    top:30px;
+    width: 200px;
+    line-height: 30px;
+}
+.active{
+    color: grey;
+    padding: 20px 7px;
+}
+.active:hover{
+    color: #00b39b;
+}
+.introduction-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 28px;
+    color: grey;
+}
+.introduction-title{
+    color: #00b39b;
+    font-size: 30px;
+}
+.introduction-text{
+    display: flex;
+}
+.introduction-text-element{
+    margin: 10px;
+    font-size: 16px;
+}.services{
+    display: flex;
+    margin: 40px 0px;
+}
+.service-card{
+    width: 50%;
+    padding:20px;
+    border-radius: 8px;
+    margin: 15px;
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+.service-card-patients{
+    background-color: #00CCB1;
+}
+.service-card-for{
+    color: white;
+}
+.service-card-title{
+    color: white;
+}
+.service-card-select{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.service-card-doctors{
+    background-color: #3D83DF;
+}
+.service-card-content{
+}
+.service-card-image{
+    height: 190px;
+    width: 260px;
+    position: absolute;
+    bottom: 0px;
+    right: -50px;
+}
+.global{
+    display: flex;
+    margin: 40px 0px;
+}
+.brands-logos{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.global-text{
+    font-size: 20px;
+}
+.targ{
+    fill: #c4c4c4;
+    padding: 0px 50px;
+}
+.stats{
+    display: flex;
+    background-color: #daf7f7;
+    margin: 40px 0px;
+}
+.stats-container{
+    margin: 8px 8% 0 !important;
+    display: flex;
+}
+.container{
+    background-color: #daf7f7;
+    /* border: 1px solid yellow; */
+    height: 250px;
+    padding: 15px;
+    width: 200px;
+}
+.stats-items{
+    background-color: white;
+    /* border: 1px solid red; */
+    margin: 5px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.col1-header{
+    padding: 30px;
+}
+.back-img{
+    background-image: url("https://files.slack.com/files-pri/TUMV4KVFG-FUR9D44MR/logo.png");
+    height: 370px;
+    width: 400px;    
+}
+.col2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.offices__header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: #00b39b;
+    line-height: 1.7142857143;
+    margin: 40px 0px;
+
+}
+.text-header{
+    font-size: 16px;
+    line-height: 1.7142857143;
+    color: #747474;
+}
+.office-slider1{
+    width: 311px;
+    display: flex;
+    margin: 100px 15% 0 !important;
+
+}
+.office{
+    border: 1px solid #f7f7f7;
+    margin: 0px 15px;
+}
+.office-desc{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 15px;
+    align-items: center;
+    color: #74748a;
+}
+.btn-small{
+    border-radius: 8px;
+    background-color: #3d83df;
+    color: #fff;
+    padding: 10px 5px;
+    font-size: .625rem;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100px;
+    height: 10px;
+}
+.office:hover{
+    box-shadow: 10px 10px 20px grey;
+}
+.office-slider2{
+    width: 311px;
+    display: flex;
+    margin: 100px 15% 0 !important;
+}
+.link-footer{
+    color: #3d83df;
+}
+footer{
+    font-size: 14px;
+    text-align: center;
+    border-top: 1px solid #eef2f2;
+    margin-top: 100px;
+}
+footer p {
+    color: grey;
+}
+footer a {
+    color: grey;
+}
